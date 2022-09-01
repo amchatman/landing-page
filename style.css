@@ -40,7 +40,6 @@ a{
     margin-top:5px;
     padding:5px;
     width:100px;
-
 }
 .header-content{
     width:524px;
@@ -64,10 +63,21 @@ a{
     display:flex;
     justify-content:center;
 }
-
 .info-grid{
     width:100px;
     height:100px;
     border:2px solid black;
     margin:35px;
+}
+.caption{
+    display:inline-block;
+    text-align:center;
+}
+.grid-img{
+    width:100px;
+    height:100px;
+    background-color:blueviolet;
+}
+.quote-container{
+   background-color:darkgrey;
 }
