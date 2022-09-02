@@ -80,4 +80,43 @@ a{
 }
 .quote-container{
    background-color:darkgrey;
+   margin-top:90px;
+   padding:40px;
+}
+.quote{
+    padding:40px; 
+    margin-left:200px;
+    margin-right:200px;
+}
+.quote p{
+    font-size:20px;
+    font-style: italic;
+}
+.signup-container{
+    margin-top:90px;
+    display:flex;
+    justify-content:center;
+}
+.signup-content{
+    background-color:aquamarine;
+    padding:40px;
+    width:75%;
+    border-radius:4px;
+    display:flex;
+    justify-content:space-around;
+}
+.signup-button{
+    background-color:aquamarine;
+    width:100px;
+    height:30px;
+    border:2px solid #ffffff;
+    border-radius:4px;
+}
+footer{
+    margin-top:90px;
+    background-color:blueviolet;
+}
+.copyright{
+    padding:20px;
+    text-align:center;
 }
