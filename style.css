@@ -18,7 +18,7 @@
     flex:1;
     padding-left:60px;
     text-transform:uppercase;
-    font-size:35px;
+    font-size:40px;
     font-weight:600;
     color:#ffffff;
 }
@@ -28,6 +28,11 @@ a{
     padding-left:20px;
     padding-right:20px;
     text-transform:uppercase;
+}
+a:hover{
+    text-decoration:underline;
+    text-decoration-color: #BFBFBF;
+    text-decoration-thickness:2px;
 }
 .header-container{
     margin:20px;
@@ -39,7 +44,7 @@ a{
 .header-title{
     padding-bottom:15px;
     color:#ffffff;
-    width:50%;
+    font-size:35px;
 }
 .header-tagline{
     font-family:roboto mono;
@@ -59,7 +64,7 @@ a{
     padding-left:20px;
 }
 .header-photo{
-    height:350px;
+    height:200px;
 }
 .header-photo img{
     width:100%;
