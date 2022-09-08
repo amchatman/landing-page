@@ -21,6 +21,11 @@
     font-size:40px;
     font-weight:600;
     color:#ffffff;
+    display:flex;
+    align-items:center;
+}
+.image-logo{
+ height:150px;
 }
 a{
     color:#ffffff;
