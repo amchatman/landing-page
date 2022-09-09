@@ -158,3 +158,58 @@ footer{
     color:#FFFFFF;
     font-size:12px;
 }
+@media (max-width:768px){
+    .nav-container{
+        display:inline;
+    }
+    .link{
+     text-align:center;
+     display:inline;
+    }
+    .header{
+        display:block;
+    }
+    .header-content{
+        width:auto;
+        padding-left:0;
+        text-align:center;
+    }
+    .header-photo{
+        display:none;
+    }
+    .info-container{
+        height:auto;
+        flex-direction:column;
+        align-items:center;
+    }
+    .caption{
+        margin:10px;
+    }
+    .quote-container{
+        padding:60px 20px;
+    }
+    .quote{
+        padding:20px;
+        margin-left:0;
+        margin-right:0;
+        text-align:center;
+    }
+    .quote p{
+        font-size:14px;
+    }
+    .signup-content{
+        width:auto;
+        display:block;
+    }
+    .signup-title{
+        text-align:center;
+        padding:5px
+    }
+    .signup-description{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .signup-con-button{
+        text-align:center;
+    }
+}
