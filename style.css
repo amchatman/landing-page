@@ -3,9 +3,13 @@
     padding:0;
     box-sizing:border-box;
     font-family:Roboto;
+    --white:#ffffff;
+    --darkgrey:#262626;
+    --black:#000000;
+    --lightgrey:#BFBFBF;;
 }
 .container{
-    background-color:#262626;
+    background-color:var(--darkgrey);
     padding:20px;
 }
 .nav-container{
@@ -20,7 +24,7 @@
     text-transform:uppercase;
     font-size:40px;
     font-weight:600;
-    color:#ffffff;
+    color:var(--white);
     display:flex;
     align-items:center;
 }
@@ -28,7 +32,7 @@
  height:150px;
 }
 a{
-    color:#ffffff;
+    color:var(--white);
     text-decoration:none;
     padding-left:20px;
     padding-right:20px;
@@ -36,7 +40,7 @@ a{
 }
 a:hover{
     text-decoration:underline;
-    text-decoration-color: #BFBFBF;
+    text-decoration-color: var(--lightgrey);
     text-decoration-thickness:2px;
 }
 .header-container{
@@ -48,20 +52,20 @@ a:hover{
 }
 .header-title{
     padding-bottom:15px;
-    color:#ffffff;
+    color:var(--white);
     font-size:35px;
 }
 .header-tagline{
     font-family:roboto mono;
-    color:#BFBFBF;
+    color:var(--lightgrey);
 }
 .header-button{
     margin-top:20px;
     padding:5px;
     width:100px;
-    background-color:#000000;
-    color:#FFFFFF;
-    border:2px solid #000000;
+    background-color:var(--black);
+    color:var(--white);
+    border:2px solid var(--black);
     border-radius:5px;
 }
 .header-content{
@@ -75,17 +79,17 @@ a:hover{
     width:100%;
     height:100%;
     border-radius:50%;
-    border:4px solid #FFFFFF;
+    border:4px solid var(--white);
 }
 .second-container{
-    background:linear-gradient(#262626,#000000);
+    background:linear-gradient(var(--darkgrey),var(--black));
     margin-top:-20px;
 }
 .info-title{
     text-align:center;
     margin-top:20px;
     margin-bottom:20px;
-    color:#FFFFFF;
+    color:var(--white);
 }
 .info-container{
     display:flex;
@@ -100,23 +104,23 @@ a:hover{
 .caption{
     display:inline-block;
     text-align:center;
-    color:#BFBFBF;
+    color:var(--lightgrey);
     font-family:roboto mono;
 }
 .grid-img{
     width:100%;
     height:100%;
-    border:2px solid #ffffff;
+    border:2px solid var(--white);
 }
 .quote-container{
-    background:linear-gradient(#000000,#262626);
+    background:linear-gradient(var(--black),var(--darkgrey));
    padding:40px;
 }
 .quote{
     padding:40px; 
     margin-left:200px;
     margin-right:200px;
-    color:#BFBFBF;
+    color:var(--lightgrey);
 }
 .quote p{
     font-size:16px;
@@ -127,11 +131,11 @@ a:hover{
 .signup-container{
     display:flex;
     justify-content:center;
-    background:linear-gradient(#262626,#000000);
+    background:linear-gradient(var(--darkgrey),var(--black));
     padding:20px;
 }
 .signup-content{
-    background-color:#BFBFBF;
+    background-color:var(--lightgrey);
     padding:40px;
     width:75%;
     border-radius:4px;
@@ -143,19 +147,19 @@ a:hover{
     font-size:14px;
 }
 .signup-button{
-    background-color:#BFBFBF;
+    background-color:var(--lightgrey);
     width:100px;
     height:30px;
-    border:2px solid #000000;
+    border:2px solid var(--black);
     border-radius:5px;
 }
 footer{
-    background:#000000;
+    background:var(--black);
 }
 .copyright{
     padding:20px;
     text-align:center;
-    color:#FFFFFF;
+    color:var(--white);
     font-size:12px;
 }
 @media (max-width:768px){
