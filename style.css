@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Roboto;
+    font-family:"Roboto",sans-serif;
     --white:#ffffff;
     --darkgrey:#262626;
     --black:#000000;
@@ -56,7 +56,7 @@ a:hover{
     font-size:35px;
 }
 .header-tagline{
-    font-family:roboto mono;
+    font-family:"roboto mono",monospace;
     color:var(--lightgrey);
 }
 .header-button{
@@ -105,7 +105,7 @@ a:hover{
     display:inline-block;
     text-align:center;
     color:var(--lightgrey);
-    font-family:roboto mono;
+    font-family:"roboto mono",monospace;
 }
 .grid-img{
     width:100%;
@@ -125,7 +125,7 @@ a:hover{
 .quote p{
     font-size:16px;
     font-style: italic;
-    font-family:roboto mono;
+    font-family:"roboto mono",monospace;
   
 }
 .signup-container{
@@ -143,7 +143,7 @@ a:hover{
     justify-content:space-around;
 }
 .signup-description{
-    font-family:roboto mono;
+    font-family:"roboto mono",monospace;
     font-size:14px;
 }
 .signup-button{
