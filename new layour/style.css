@@ -20,6 +20,11 @@ header{
     width:100%;
     overflow:hidden;
 }
+p{
+     font-family: 'Roboto Mono', monospace;
+     font-size:14px;
+     color:var(--lightgrey);
+}
 .logo{
     text-align:center;
     font-size:30px;
@@ -51,6 +56,10 @@ nav li{
 main{
     margin:10px;
     padding:10px;
+}
+section{
+    margin:20px;
+    overflow:hidden;
 }
 .headline img{
     display:block;
@@ -86,8 +95,44 @@ h2{
     padding:15px 0 0 15px;
     margin-top:15px;
 }
+.product{
+    width:150px;
+    height:150px;
+    margin:40px auto;
+    padding:5px;
+}
 .product img{
     display:block;
-    width:45%;
-    height:45%;
+    width:100%;
+    height:100%;
+    border:2px solid var(--white);
+}
+.product p{
+    text-align:center;
+    color:var(--lightgrey); 
+    margin:5px;
+}
+#quote{
+    margin:10px;
+    text-align:center;
+}
+.signup{
+    text-align:center;
+    background-color:var(--white);
+    padding:10px;
+    border-radius:4px;
+}
+.signup h3{
+    font-weight:600;
+}
+.signup p{
+    color:var(--black);
+}
+.signup button{
+    border:2px solid var(--black);
+    border-radius:5px;
+    padding:5px;
+    height:30px;
+    width:100px;
+    margin:10px;
 }

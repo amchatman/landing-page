@@ -6,7 +6,7 @@
     --white:#ffffff;
     --darkgrey:#262626;
     --black:#000000;
-    --lightgrey:#BFBFBF;;
+    --lightgrey:#BFBFBF;
 }
 .container{
     background-color:var(--darkgrey);
