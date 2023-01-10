@@ -140,3 +140,15 @@ h2{
 footer{
     text-align:center;
 }
+/*--- Desktop --- */
+@media(min-width:600px){
+nav{
+    display:flex;
+    padding:20px;
+    justify-content:flex-end;
+    margin-bottom:60px;
+}
+.logo{
+    justify-content:flex-start;
+}
+}
