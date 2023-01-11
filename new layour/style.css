@@ -14,16 +14,12 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color:var(--darkgrey);
 }
-img{
-    display:none;
-}
 header{
     width:100%;
     overflow:hidden;
 }
 p{
      font-family: 'Roboto Mono', monospace;
-     font-size:14px;
      color:var(--lightgrey);
 }
 .logo{
@@ -68,6 +64,7 @@ section{
     width:45%;
     border-radius:50%;
     margin:10px auto;
+    border:2px solid var(--white);
 }
 .headline,h2{
     text-align:center;
@@ -80,7 +77,6 @@ section{
     margin:20px;
     color:var(--lightgrey);
     font-family: 'Roboto Mono', monospace;
-    font-size:14px;
 }
 .headline button{
     background-color:var(--black);
@@ -142,13 +138,18 @@ footer{
 }
 /*--- Desktop --- */
 @media(min-width:600px){
-nav{
-    display:flex;
-    padding:20px;
-    justify-content:flex-end;
-    margin-bottom:60px;
-}
-.logo{
-    justify-content:flex-start;
-}
+    header{
+        display:flex;
+        justify-content: space-between;
+    }
+    .logo{
+        margin-left:40px;
+    }
+    nav{
+        margin-right:40px;
+    }
+  
+    .img-container{
+        width:500px;
+    }
 }
