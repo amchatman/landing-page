@@ -66,6 +66,9 @@ section{
     margin:10px auto;
     border:2px solid var(--white);
 }
+.desktop-img{
+    display:none;
+}
 .headline,h2{
     text-align:center;
 }
@@ -148,8 +151,31 @@ footer{
     nav{
         margin-right:40px;
     }
-  
-    .img-container{
-        width:500px;
+   .headline{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   }
+   .headline p{
+    margin:20px 0 20px 0;
+   }
+   .tagline{
+    text-align:justify;
+    width:525px;
+   }
+   .headline img{
+    display:block;
+    height:100%;
+    width:100%
     }
+   .img-container{
+    display:none;
+   }
+   .desktop-img{
+    display:block;
+    width:200px;
+   }
+   .product-container{
+        display:flex;
+   }
 }
