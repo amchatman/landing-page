@@ -1,84 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Odin Project Landing Page</title>
-    <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width,initial-scale=1, viewport-fit=cover">
-  
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Phase</title>
 </head>
-
-<body>  
-
-<div class="container">
-    <div class="nav-container">
+<body>
+   <header>
+        <!--Logo-->
         <div class="logo">
-            <img src="images/moonlogo.png" class="image-logo" alt="A image of a full moon">Phase</div>
-        <div class="link"><a href="#">Explore</a></div>
-        <div class="link"><a href="#">Discover</a></div>
-        <div class="link"><a href="#">Learn</a></div>
-    </div>
-
-    <div class="header-container">
-        <div class="header">
-            <div class="header-content">
-               <h1 class="header-title">Explore the moon with Phase</h1>
-               <p class="header-tagline">A wonderful selection of interesting information and lunar images.
-                Join our community and aid the expansion of our lunar database.
-               </p>
-               <button class="header-button">Sign up </button>
+            <img src="images/moonlogo.png" class="logo-img" alt="A image of a full moon">
+            <h3>Phase</h3>
+        </div>
+        <!--Navigations-->
+        <nav>
+            <ul>
+                <li><a href="#" class="link">Explore</a></li>
+                <li><a href="#" class="link">Discover</a></li>
+                <li><a href="#" class="link">Learn</a></li>
+                <li><a href="#" class="link">Build</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+    <!---Headline Sections-->
+    <section class="section-one">
+        <div class="headline">
+            <div class="img-container">
+                <img src="images/alexander-andrews-vGCErDhrc3E-unsplash.jpg" alt="A image of a  moon">
             </div>
-            <div class="header-photo"><img src="images/alexander-andrews-vGCErDhrc3E-unsplash.jpg" alt="A image of a  moon"></div>
+            <div class="tagline">
+                <h1>Explore the moon with Phase</h1>
+                <p>A wonderful selection of interesting information and lunar images.
+                    Join our community and aid the expansion of our lunar database.
+                </p>
+                <button class="button">Sign up </button>
+            </div>
+            <div class="img-container desktop-img">
+                <img src="images/alexander-andrews-vGCErDhrc3E-unsplash.jpg" alt="A image of a  moon">
+            </div>
         </div>
-    </div>
-</div>
-<div class="second-container">
-    <h2 class="info-title">Observe our assortment of moon images.</h2>
-    <div class="info-container">
-        <div class="info-grid">
-            <img src="images/luke-stackpoole-TRXSkmJb40c-unsplash.jpg" class="grid-img" alt="A image of a cresent moon">
-            <span class="caption">The Cresent Phase</span>
+    </section>
+    <hr>
+    <!--Product Sections-->
+    <section>
+            <h2>Observe our assortment of moon images.</h2>
+            <div class="product-container">
+                <div class="product">
+                    <img src="images/luke-stackpoole-TRXSkmJb40c-unsplash.jpg"  alt="A image of a cresent moon" class="product-img">
+                    <p>The Cresent Phase</p>
+                </div>
+                <div class="product">
+                    <img src="images/lubo-minar-B-gb_8fgmz8-unsplash.jpg"  alt="A image of glaxie and stars" class="prdouct-img">
+                    <p>The Galaxies and stars</p>
+                </div>
+                <div class="product">
+                    <img src="images/ian-parker-rWey_wseEcY-unsplash.jpg" alt="A image of moon eclipse phases" class="product-img">
+                    <p>The Solar Phase</p>
+                </div>
+                <div class="product">
+                    <img src="images/laura-skinner-nuMmwfyPOUw-unsplash.jpg" alt="Solar eclipse">
+                    <p>The Solar Eclipse</p>
+                </div>
+            </div>
+    </section>
+    <hr>
+    <!---Quote Section-->
+    <section>
+        <div id="quote">
+            <p>“The moon is a loyal companion. It never leaves. 
+                It’s always there, watching, steadfast, knowing us in our light and dark moments, changing forever just as we do. 
+                Every day it’s a different version of itself. 
+                Sometimes weak and wan, sometimes strong and full of light. 
+                The moon understands what it means to be human. Uncertain. Alone. 
+                Cratered by imperfections.” – Tahereh Mafi
+            </p>
         </div>
-        <div class="info-grid">
-            <img src="images/lubo-minar-B-gb_8fgmz8-unsplash.jpg" class="grid-img" alt="A image of glaxie and stars">
-            <span class="caption">The Galaxies and stars</span>
+    </section>
+    <hr>
+    <!--Signup Section-->
+    <section>
+        <div class="signup">
+            <div class="signup-left">
+                <h3>Sign up for the Phase community now.</h3>
+                <p>Click on the button there to register to join the community</p>
+            </div>
+            <div class="signup-right">
+                <button>Sign up</button>
+            </div>
         </div>
-        <div class="info-grid">
-            <img src="images/ian-parker-rWey_wseEcY-unsplash.jpg" class="grid-img" alt="A image of moon eclipse phases">
-            <span class="caption">The Solar Phase</span>
-        </div>
-        <div class="info-grid">
-            <img src="images/laura-skinner-nuMmwfyPOUw-unsplash.jpg" class="grid-img" alt="Solar eclipse">
-            <span class="caption">The Solar Eclipse</span>
-        </div>
-    </div>
-</div>
-<div class="quote-container">
-    <div class="quote">
-        <p>“The moon is a loyal companion. It never leaves. 
-            It’s always there, watching, steadfast, knowing us in our light and dark moments, changing forever just as we do. 
-            Every day it’s a different version of itself. 
-            Sometimes weak and wan, sometimes strong and full of light. 
-            The moon understands what it means to be human. Uncertain. Alone. 
-            Cratered by imperfections.” – Tahereh Mafi
-        </p>
-    </div>
-</div>
-<div class="signup-container">
-    <div class="signup-content">
-        <div class="signup-con-left">
-            <h3 class="signup-title">Sign up for the Phase community now.</h3>
-            <p class="signup-description">Click on the button there to register to join the community</p>
-        </div>
-        <div class="signup-con-button">
-            <button class="signup-button">Sign up</button>
-        </div>
-    </div>
-</div>
-<footer>
-    <p class="copyright">Created by amchatman</p>
-</footer>
-
+    </section>
+    <!---Footer-->
+   <footer>
+        <p>Created by amchatman</p>
+    </footer>
+   </main>
 </body>
 </html>
