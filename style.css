@@ -51,6 +51,11 @@ nav li{
     text-decoration:none;
     padding:10px;
 }
+a:hover{
+    text-decoration:underline;
+    text-decoration-color: var(--lightgrey);
+    text-decoration-thickness:2px;
+}
 main{
     padding:10px;
     background:linear-gradient(var(--darkgrey),var(--black));
