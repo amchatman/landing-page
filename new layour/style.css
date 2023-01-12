@@ -161,7 +161,7 @@ footer{
         margin-right:40px;
     }
     section{
-        padding:30px;
+        padding:10px;
     }
    .headline{
     display: flex;
@@ -198,15 +198,26 @@ footer{
         justify-content:center;
         height:auto;
         margin-top:20px;
+        margin-bottom:20px;
    }
    .product{
    margin:10px;
 }
    #quote{
-   padding:40px;
-   margin: 30px auto;
-   width: 800px;   
-   text-align:justify;
-   font-style:italic;
+    padding:20px;
+    margin:10px auto;
+    width:800px;
+    text-align: justify;
+    font-style: italic;
    }
+   .signup{
+    width: 75%;
+    margin: 0 auto;
+    display:flex;
+    padding: 40px;
+    justify-content: space-around;
+  }
+  .signup h3{
+    text-align:justify;
+  }
 }
